@@ -1,0 +1,11 @@
+{
+  "name": "pacman-contribution-graph",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Pac-Man chomps its way across your GitHub contribution graph.",
+  "scripts": {
+    "demo": "node src/generate.mjs --demo --out dist",
+    "build": "node src/generate.mjs --out dist"
+  },
+  "license": "MIT"
+}
